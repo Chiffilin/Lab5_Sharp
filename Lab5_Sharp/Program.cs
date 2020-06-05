@@ -9,8 +9,8 @@ namespace Lab5_Sharp
         {
             var list = new List<Person>();
             list.Add(new Student("Ли В.С.","Физика"));
-            list.Add(new Teacher("Василенко О.В.", "Физика"));
-            list.Add(new Zavkaf("Григорьев В.А.","Физика"));
+            list.Add(new Teacher("Василенко О.В.", "Физику" ));
+            list.Add(new Zavkaf("Григорьев В.А.","Физики"));
             foreach (var item in list) Console.WriteLine(item);
             Console.ReadLine();
 
